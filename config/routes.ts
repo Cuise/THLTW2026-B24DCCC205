@@ -43,12 +43,7 @@
 		component: './TodoList',
 	},
 	
-	{
-  		path: '/product',
-		name: 'Quản lý sản phẩm',
-  		icon: 'AppstoreOutlined',
-  		component: './product',
-	},
+	
 
 	// DANH MUC HE THONG
 	// {
