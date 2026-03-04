@@ -42,8 +42,18 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
-	
-	
+	{
+		path: '/guess-number',
+		name: 'Đoán số',
+		icon: 'BulbOutlined',
+		component: './doanso',
+	},
+	{
+		path: '/study-manager',
+		name: 'Quản lý học tập',
+		icon: 'BookOutlined',
+		component: './qlht',
+	},
 
 	// DANH MUC HE THONG
 	// {
