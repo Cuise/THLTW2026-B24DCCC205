@@ -42,8 +42,19 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
-	
-	
+	{
+		path: '/keo-bua-bao',
+		name: 'Kéo Búa Bao',
+		icon: 'ScissorOutlined',
+		component: './KeoBuaBao',
+	},
+	{
+		path: '/ngan-hang-cau-hoi',
+		name: 'Ngân Hàng Câu Hỏi',
+		icon: 'QuestionOutlined',
+		component: './nganhangcauhoi',
+	},
+
 
 	// DANH MUC HE THONG
 	// {
