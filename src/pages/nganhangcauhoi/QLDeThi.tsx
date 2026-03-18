@@ -12,13 +12,14 @@ const QLDeThi = () => {
     const easy = questions.filter((q:any)=>q.difficulty==="Dễ").slice(0,2);
     const medium = questions.filter((q:any)=>q.difficulty==="Trung bình").slice(0,2);
     const hard = questions.filter((q:any)=>q.difficulty==="Khó").slice(0,1);
+    const veryhard = questions.filter((q:any)=>q.difficulty==="Rất khó").slice(0,1);
 
-    if(easy.length<2 || medium.length<2 || hard.length<1){
+    if(easy.length<2 || medium.length<2 || hard.length<1 || veryhard.length<1){
       message.error("Không đủ câu hỏi để tạo đề thi");
       return;
     }
 
-    const newExam = [...easy, ...medium, ...hard];
+    const newExam = [...easy, ...medium, ...hard, ...veryhard];
 
     setExam(newExam);
   };
