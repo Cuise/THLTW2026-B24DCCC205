@@ -42,6 +42,12 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+	{
+		path : '/dat-lich-dich-vu',
+		name: 'Đặt lịch dịch vụ',
+		icon: 'CalendarOutlined',
+		component: './datlichdichvu'
+	},
 	
 	
 
