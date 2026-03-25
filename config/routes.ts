@@ -42,13 +42,7 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
-	{
-		path : '/bang-tot-nghiep',
-		name: 'Bằng Tốt Nghiệp',
-		icon: 'FileDoneOutlined',
-		component: './bangtotnghiep'
-	},
-
+	
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
