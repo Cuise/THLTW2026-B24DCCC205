@@ -42,7 +42,12 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
-	
+	{
+		path: '/du-lich',
+		name: 'Du Lịch',
+		icon: 'ScheduleOutlined',
+		component: './DuLich',
+	},
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
