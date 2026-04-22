@@ -42,6 +42,12 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+	{
+		path: '/blog-ca-nhan',
+		name: 'Blog Cá Nhân',
+		icon: 'PictureOutlined',
+		component: './blogcanhan',
+	},
 	
 	// DANH MUC HE THONG
 	// {
