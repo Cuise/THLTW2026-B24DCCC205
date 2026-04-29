@@ -42,6 +42,12 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+	{
+		path: '/quan-ly-suc-khoe',
+		name: 'Quản lý sức khỏe',
+		icon: 'HeartOutlined',
+		component: './quanlysuckhoe',
+	},
 	
 	// DANH MUC HE THONG
 	// {
