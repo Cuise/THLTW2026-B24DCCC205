@@ -42,6 +42,12 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+	{
+		path: '/theo-doi-cong-viec',
+		name: 'Theo dõi công việc',
+		icon: 'UnorderedListOutlined',
+		component: './theodoicvcanhan',
+	},
 	
 	// DANH MUC HE THONG
 	// {
